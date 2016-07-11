@@ -1,5 +1,6 @@
 var hello = require('../hello');
 var exec = require('child_process').exec;
+var assert = require('assert');
 
 describe( 'hello', () => {
   it( 'says hello', () => {
@@ -9,15 +10,17 @@ describe( 'hello', () => {
 });
 
 describe( 'greet.js', () => {
-  it( 'processes arguments correctly', () => {
+  it( 'processes arguments correctly', (done) => {
     var name = 'Bob';
     exec('node greet.js ' + name, (error, stdout, stderr) => {
       if(error) {
+        done(error);
         console.error(`exec error: ${error}`);
         console.log(`stdout: ${stdout}`);
         console.log(`stderr: ${stderr}`);
       } else {
-        if (stdout !== 'Hello, ' + name) throw new Error('CLI method failed test!');
+        assert.equal(stdout, 'Hello, ' + name + '\n');
+        done();
       }
     });
   });
