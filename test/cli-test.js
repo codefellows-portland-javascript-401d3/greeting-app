@@ -1,4 +1,3 @@
-//var name = require('../get-name');
 var exec = require( 'child_process' ).execSync;
 var assert = require('assert');
 
