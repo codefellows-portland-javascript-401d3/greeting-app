@@ -1,3 +1,3 @@
-module.exports = hello = (name) => {
-    return 'Hello, ' + name;
+module.exports = (name) => {
+  return 'Hello, ' + name;
 };
