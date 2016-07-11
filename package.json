@@ -1,12 +1,12 @@
 {
   "name": "hello",
   "version": "1.0.0",
-  "description": "",
-  "main": "greet.js",
   "description": "Short app for a 401 lab assignment",
+  "main": "greet.js",
   "private": true,
   "devDependencies": {
-    "eslint": "^3.0.1"
+    "eslint": "^3.0.1",
+    "mocha": "^2.5.3"
   },
   "scripts": {
     "test": "mocha"
