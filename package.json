@@ -1,0 +1,22 @@
+{
+  "name": "greeting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afoldoe/greeting-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afoldoe/greeting-app/issues"
+  },
+  "homepage": "https://github.com/afoldoe/greeting-app#readme"
+}
