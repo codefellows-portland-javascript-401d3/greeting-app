@@ -15,7 +15,7 @@ take a name as a parameter and returns the string `'hello ' + name`.
 
 You should have at least one test that verifies the output of the function.  
 
-Your code should pass an **.eslintrc** included in your repository.  
+Include your **.eslintrc** file in your repository.  
 
 Your submission should be a link to your pull request.  
 
