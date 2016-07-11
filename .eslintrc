@@ -2,11 +2,16 @@
    "settings": {
     "ecmascript": 6
   },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
   "ecmaFeatures": {
   },
   "env": {
     "browser": true,
-    "jquery": true
+    "jquery": true,
+    "node": true,
+    "mocha": true
   },
   "rules": {
     "semi": 1,
