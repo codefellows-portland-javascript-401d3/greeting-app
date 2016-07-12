@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint",
+    "watch" : "mocha -w",
+    "test:full": "eslint mocha"
   },
   "repository": {
     "type": "git",

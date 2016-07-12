@@ -8,7 +8,7 @@ describe ('testing output', () => {
   });
 
   it ('- no input', () => {
-    assert.equal(greet(), 'hello, nameless creature');
+    assert.equal(greet(), 'hello, ye ol\' mutt!');
   });
 
   it ('- CLI(ish)', () => {
