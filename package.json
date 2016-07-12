@@ -1,0 +1,23 @@
+{
+  "name": "greeting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesEmrich/greeting-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesEmrich/greeting-app/issues"
+  },
+  "homepage": "https://github.com/CharlesEmrich/greeting-app#readme"
+}
