@@ -6,6 +6,7 @@ USAGE
 Simply install with:
 
 npm install greeting-app
+
 var greeting-app = require('greeting-app');
 
 
