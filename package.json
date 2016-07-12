@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "pretest": "eslint **/*.j",
+    "cli" : "node run cli.js"
   },
   "repository": {
     "type": "git",

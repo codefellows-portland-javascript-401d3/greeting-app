@@ -5,9 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Added
 
+## [1.3.0] - 2016-07-12
+### Added
+- added ESLint and updated package.json
+
+
 ## [1.2.0] - 2016-07-12
 ### Added
-- added 
+- added colors functionality to cli.js
 
 ## [1.1.0] - 2016-07-12
 ### Added
