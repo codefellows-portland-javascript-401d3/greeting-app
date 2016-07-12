@@ -28,7 +28,10 @@ The gulpfile or npm scripts should address:
   * watch functionality (only watches .js files)
 
 ## Bonus:  
-From CLI, solicit input and respond with second greeting that includes response. Add appropriate cli and unit tests. *3pts*
+Add to core library and cli:
+* solicit input and respond with second greeting that includes response.
+* Add appropriate cli and unit tests. 
+**3pts**
 
 ## Rubric:
 
