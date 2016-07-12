@@ -22,6 +22,4 @@ All notable changes to this project will be documented in this file
 
 ## 1.3.0 - 2016-07-12
 ### Added
-### Changed
-### Removed
-### Fixed
+- Follow up question soliciting feedback on the upside down greeting
