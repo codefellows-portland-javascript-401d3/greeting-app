@@ -6,11 +6,5 @@ if(name.length > 0){
     console.log(greet(name[i]));
   }
 } else {
-  console.log(greet('friend'));
+  console.log(greet());
 }
-
-
-//get the name(s)
-//feed the names into a greeting function
-  //return greeting message
-//console log out the greeting message
