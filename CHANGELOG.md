@@ -1,5 +1,11 @@
 # CHANGE LOG
 
+## [1.2.1] - 2016-07-11
+#### Fixed
+- ESLint error with testing, corrected syntax issue, all tests run successfully now.
+
+---
+
 ## [1.2.0] - 2016-07-11
 #### Added
 - Integration with dog-ascii-faces, dog-names, and emoji-dog libraries.
