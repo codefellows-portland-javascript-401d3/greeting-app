@@ -1,3 +1,3 @@
-var greet = require('./greet.js');
+var greet = require('./greet');
 
-greet.greet('Amy');
+console.log(greet.greet('Amy'));
