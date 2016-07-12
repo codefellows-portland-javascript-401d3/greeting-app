@@ -23,3 +23,4 @@ All notable changes to this project will be documented in this file
 ## 1.3.0 - 2016-07-12
 ### Added
 - Follow up question soliciting feedback on the upside down greeting
+- Added test to ensure the follow up question was being asked after the greeting

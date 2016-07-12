@@ -13,5 +13,5 @@ if(name.length > 0){
   console.log(greet());
 }
 
-//ask follow up question 
+//ask follow up question
 question();
