@@ -1,4 +1,5 @@
-var greet = require('./greet');
+const greet = require('./greet');
+
 var name = process.argv.slice(2);
 
 if(name.length > 0){
