@@ -1,9 +1,10 @@
-var name = require('../get-name');
+var greet = require('../greet');
 var assert = require('assert');
 
 describe('name', ()=>{
   it('name function', ()=>{
-    var result = name();
-    assert.equal(result, 'friend');
+    var name = 'Bob';
+    var result = greet(name);
+    assert.equal(result, 'Hello Bob');
   });
 });
