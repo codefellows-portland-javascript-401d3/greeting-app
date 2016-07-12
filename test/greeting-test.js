@@ -1,10 +1,17 @@
 var greeting = require( '../greeting' );
-var assert = require('assert');
+const assert = require( 'chai' ).assert;
 
 describe( 'greetings', () => {
+	const match = /^Hello/;
+	const greet = greeting('Arielle');
+	
+	it( 'greeting', () => {
+		assert.match(greet, match, 'regexp matches');
+	});
 
-	it( 'shows greeting', () => {
-		assert.equal( greeting('Arielle'), 'Hello Arielle!' );
+	it( 'no name greeting', () => {
+		const greet = greeting();
+		assert.match( greet, /^Hello undefined!/ );
 	});
 
 });
