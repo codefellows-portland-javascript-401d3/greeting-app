@@ -1,0 +1,25 @@
+{
+  "name": "greeting-app",
+  "version": "1.0.0",
+  "description": "greeting app assignment",
+  "main": "hello-module.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronbini/greeting-app.git"
+  },
+  "author": "Aaron Bini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronbini/greeting-app/issues"
+  },
+  "homepage": "https://github.com/aaronbini/greeting-app#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
