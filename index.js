@@ -1,6 +1,6 @@
-var name = require('./get-name');
+var greet = require('./greet');
 
-console.log('Hello ' + name());
+console.log('Hello ' + greet());
 
 //get the name(s)
 //feed the names into a greeting
