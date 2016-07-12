@@ -1,4 +1,4 @@
-![CF](assets/shield-32x32.png) Lab 02: Build Tools
+![cf](http://i.imgur.com/7v5ASc8.png)  Lab 02: Build Tools
 ===
 
 ## Description:
