@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Added
 
+## [1.2.0] - 2016-07-12
+### Added
+- added 
+
 ## [1.1.0] - 2016-07-12
 ### Added
 - added Colors with NPM.
