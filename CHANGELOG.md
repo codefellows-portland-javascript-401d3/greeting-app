@@ -1,5 +1,11 @@
 # CHANGE LOG
 
+# [1.3.0] - 2016-07-11
+#### Added
+- Added gulp for automation purposes, "gulp test", "gulp lint", "gulp watch" most helpful commands.
+
+---
+
 ## [1.2.1] - 2016-07-11
 #### Fixed
 - ESLint error with testing, corrected syntax issue, all tests run successfully now.
