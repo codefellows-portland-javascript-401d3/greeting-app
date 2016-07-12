@@ -10,6 +10,16 @@ All notable changes to this project will be documented in this file
 
 ## 1.1.0 - 2016-07-12
 ### Added
+- task to run tests (pretest, test, watch, lint )
+
+## 1.2.0 - 2016-07-12
+### Added
+### Changed
+### Removed
+### Fixed
+
+## 1.3.0 - 2016-07-12
+### Added
 ### Changed
 ### Removed
 ### Fixed
