@@ -1,0 +1,25 @@
+{
+  "name": "greeting-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeheber/greeting-app.git"
+  },
+  "author": "Danielle Heberling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deeheber/greeting-app/issues"
+  },
+  "homepage": "https://github.com/deeheber/greeting-app#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
