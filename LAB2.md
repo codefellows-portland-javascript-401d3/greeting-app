@@ -27,11 +27,11 @@ The gulpfile or npm scripts should address:
   * running eslint
   * watch functionality (only watches .js files)
 
-## Bonus:  
+## Bonus **3pts**  
 Add to core library and cli:
 * solicit input and respond with second greeting that includes response.
 * Add appropriate cli and unit tests. 
-**3pts**
+
 
 ## Rubric:
 
