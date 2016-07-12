@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.3.0] - 2016-07-12
 ### Added
 - added ESLint and updated package.json
+- corrected missing dependencies in package.json
 
 
 ## [1.2.0] - 2016-07-12
