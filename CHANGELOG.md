@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file
 ## 1.2.0 - 2016-07-12
 ### Added
 - Flip text NPM package
+
 ### Changed
 - Greeting now includes an upsidedown version of the greeting text
 - Tests now use chai assert
