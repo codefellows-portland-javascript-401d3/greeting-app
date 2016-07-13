@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 This project attempts to adhere to [Semantic Versioning](http://semver.org/).
 No guarantees should be inferred.
 
+## [1.1.1] - 2016-07-13
+### Added
+- Added linting to test script.
+
 ## [1.1.0] - 2016-07-13
 ### Added
 - Emojis! `hello()` method can now take the name of an emoji as a second argument. The related emoji will be rendered at the end of the text.
