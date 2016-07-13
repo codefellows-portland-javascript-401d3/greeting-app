@@ -42,24 +42,22 @@ prompt.delimiter = colors.green('=>');
 
 prompt.start();
 
-module.exports = function promptSequence() => {
-  prompt.get(schema, (err, result) => {
-    if (+result.annoyance === 1 || +result.annoyance ===2) {
-      console.log(`A ${result.annoyance}? That's not too bad!`);
-    } else if (+result.annoyance === 3 || +result.annoyance === 4) {
-      console.log('Ok, I could tell you were getting frustrated.');
-    } else {
-      console.log(`A ${result.annoyance}? I'm sorry, it was only a few questions!`);
-    }
-    let password = result.password;
-    let name = result.name;
+prompt.get(schema, (err, result) => {
+  if (+result.annoyance === 1 || +result.annoyance ===2) {
+    console.log(`A ${result.annoyance}? That's not too bad!`);
+  } else if (+result.annoyance === 3 || +result.annoyance === 4) {
+    console.log('Ok, I could tell you were getting frustrated.');
+  } else {
+    console.log(`A ${result.annoyance}? I'm sorry, it was only a few questions!`);
+  }
+  let password = result.password;
+  let name = result.name;
 
-    prompt.get(schema2, (err, result) => {
-      if (result.password2 === password) {
-        console.log('Thank you', name, '! That is correct, you now have access to the super secret files!');
-      } else {
-        console.log('Sorry those passwords do not match, goodbye', name);
-      }
-    });
+  prompt.get(schema2, (err, result) => {
+    if (result.password2 === password) {
+      console.log('Thank you', name, '! That is correct, you now have access to the super secret files!');
+    } else {
+      console.log('Sorry those passwords do not match, goodbye', name);
+    }
   });
-// };
+});
