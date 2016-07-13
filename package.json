@@ -1,6 +1,6 @@
 {
   "name": "greeting-app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "greeting app assignment",
   "main": "hello-module.js",
   "directories": {

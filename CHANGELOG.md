@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.3.0 - 2016-07-13
+### Added
+- NPM Package 'prompt' for enhanced command-line functionality
+
 ## 1.2.0 - 2016-07-12
 ### Added
 - Chai Assertion testing in hello-cli-test.js
