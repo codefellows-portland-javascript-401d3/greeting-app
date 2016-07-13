@@ -1,10 +1,13 @@
-var greet = require('../greet');
-var assert = require('assert');
+const greet = require('../greet');
+const assert = require('chai').assert;
 
-describe('name', ()=>{
-  it('name function', ()=>{
-    var name = 'Bob';
-    var result = greet(name);
-    assert.equal(result, 'Hello Bob');
+describe('test function', ()=>{
+
+  const match = /^Hello friend/;
+
+  it('friend', ()=>{
+    var greeting = greet();
+    assert.match(greeting, match);
+    assert.ok(greeting.replace( match, '' ).trim());
   });
 });
