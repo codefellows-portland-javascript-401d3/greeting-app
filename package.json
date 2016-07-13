@@ -1,7 +1,7 @@
 {
   "name": "hello",
-  "version": "1.0.0",
-  "description": "Short app for a 401 lab assignment",
+  "version": "1.0.1",
+  "description": "Code Fellows 401 - Greeting App",
   "main": "greet.js",
   "private": true,
   "devDependencies": {
