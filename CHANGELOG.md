@@ -15,6 +15,7 @@ Changed test for greeting() to ensure beginning of greeting matches
 Added test for greeting() if no name is entered
 Changed test for cli to ensure beginning of output matches
 Added scripts for testing and watching (pretest, test, watch, lint)
+Changed cli to throw a message to the console to include a name if one is not given when ran.
 
 
 
