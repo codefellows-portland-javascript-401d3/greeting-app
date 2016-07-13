@@ -24,7 +24,7 @@
 
 ## [1.1.0] - 2016-07-11
 #### Added
-- Dog-ascii-faces, what-dog, and emoji-dog, and dog-names NPM libraries to app, integrations to come.
+- Dog-ascii-faces, what-dog, and emoji-dog, and dog-names NPM libraries installed.
 
 ---
 
