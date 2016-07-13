@@ -1,10 +1,13 @@
 {
   "name": "greeting-app",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint",
+    "watch": "mocha -w",
+    "test:full": "eslint mocha **/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,14 @@
   "homepage": "https://github.com/katesowles/greeting-app-1#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.0.1",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-standard": "^1.3.3",
     "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "dog-ascii-faces": "^2.1.3",
+    "dog-names": "^1.0.2",
+    "emoji-dog": "^1.2.1"
   }
 }
