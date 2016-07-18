@@ -1,5 +1,6 @@
 var greet = require('../greet');
 var assert = require('assert');
+var colors = require('colors');
 
 describe('My First Tests', function() {
     it('Can successfully incorporate "Nancy" ?', function() {
@@ -11,5 +12,10 @@ describe('My First Tests', function() {
         assert.equal(
           typeof greet.greet('Nancy') , 'string'
         );
-    })
+    });
+    it('Is colors hooked up?', function() {
+        assert.equal(
+          typeof colors.red('Hello') , 'string'
+        );
+    });
 });

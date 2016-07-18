@@ -1,5 +1,9 @@
 module.exports = exports;
 
-exports.greet = function(name) {
-  return 'Hello, ' + name + '.';
+var colors = require('colors');
+
+exports.greet = function(name, color) {
+
+    if (color) return colors[color]('Hello, ' + name + '.');
+    else return 'Hello, ' + name + '.';
 };
