@@ -1,0 +1,34 @@
+{
+  "name": "greeting-app",
+  "version": "1.3.0",
+  "description": "greeting app assignment",
+  "main": "hello-module.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "watch": "mocha -w",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronbini/greeting-app.git"
+  },
+  "author": "Aaron Bini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronbini/greeting-app/issues"
+  },
+  "homepage": "https://github.com/aaronbini/greeting-app#readme",
+  "dependencies": {
+    "node-emoji": "^1.3.1",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.0.1",
+    "mocha": "^2.5.3"
+  }
+}
