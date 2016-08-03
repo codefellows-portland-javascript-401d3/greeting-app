@@ -1,0 +1,33 @@
+{
+  "name": "greeting-app",
+  "version": "1.1.0",
+  "description": "",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "watch": "mocha -w",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afoldoe/greeting-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afoldoe/greeting-app/issues"
+  },
+  "homepage": "https://github.com/afoldoe/greeting-app#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.0.1",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "starwars": "^1.0.0"
+  }
+}
